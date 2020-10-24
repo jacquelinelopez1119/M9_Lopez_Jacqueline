@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	width: 100%;
+	margin: 0px;
+	color: #504D50;
+}
+ 
+header{
+	
+}
+h1{
+	font-family: 'Niconne', cursive;
+	text-align: center;
+	color: #C679AA;
+}
+h2{
+	font-family: 'Niconne', cursive;
+	text-align: center;
+	color: #C679AA;
+}
+nav{
+	background-color:#A36991;
+	width: auto;
+	padding: .5px;
+}
+img{
+	max-width: 500px;
+	
+}
+section p{
+	text-align: center;
+	padding:5px;
+	margin-left: 2px;
+	margin-right: 3px;
+}
+
+figure img{
+	max-width: 320px;
+	display: inline-block;
+	margin-left:15px;
+}
+nav ul il{
+    text-align: center;
+	text-decoration: underline;
+	color: #EFEFEF;
+	padding: 5px;
+	margin-left: 70px;
+	text-size: 1rem;
+}
+figure figcaption{
+
+	font-family: 'Niconne', cursive;
+	text-align: center;
+	color: #C679AA;
+	font-size: 20px;
+}
+footer{
+	background-color:#A36991;
+	padding: 2px;
+}
