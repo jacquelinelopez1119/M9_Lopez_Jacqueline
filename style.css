@@ -10,55 +10,75 @@ header{
 	
 }
 h1{
-	font-family: 'Niconne', cursive;
+	font-family: 'Great Vibes', cursive;
 	text-align: center;
-	color: #C679AA;
+	color:#D89EAE;
+	font-size: 3rem;
 }
 h2{
-	font-family: 'Niconne', cursive;
+	font-family: 'Great Vibes', cursive;
 	text-align: center;
-	color: #C679AA;
+	color: #D89EAE;
+	font-size:2.2rem;
 }
 nav{
-	background-color:#A36991;
+	background-color:#AB7B97;
 	width: auto;
-	padding: .5px;
-}
-img{
-	max-width: 500px;
 	
 }
-section p{
+nav ul{
+	list-style-type: none;
 	text-align: center;
-	padding:5px;
-	margin-left: 2px;
-	margin-right: 3px;
+	padding: 2%;
 }
 
-figure img{
-	max-width: 320px;
-	display: inline-block;
-	margin-left:15px;
-}
-nav ul il{
-    text-align: center;
+nav ul li{
+	display: inline;
 	text-decoration: underline;
 	color: #EFEFEF;
-	padding: 5px;
-	margin-left: 70px;
-	text-size: 1rem;
+	padding: 3%;
+	font-size: 1.75rem;
 }
-figure figcaption{
+img{
+	width:100% ;
+	align-content: center;
+	margin: 0px;
+}
+section{
+	padding: 3%;
+}
+p{
+	text-align: center;
+	margin-left: 2px;
+	margin-right: 3px;
+	font-size: 1.5rem;
+}
+
+ figure img{
+	width: 85%;
+    margin: 3%;
+	
+}
+
+figcaption{
 
 	font-family: 'Niconne', cursive;
 	text-align: center;
-	color: #C679AA;
-	font-size: 20px;
+	color: #D89EAE;
+	font-size: 2rem;
 }
 footer{
-	background-color:#A36991;
+	background-color:#AB7B97;
 	padding: 2px;
+	
 }
+footer ul{
+	list-style-type:upper-roman;
+}
+footer ul li{
+	display:inline; 
+}
+
 /*@media (max-width: 1000px) and (min-width: 726px)
 
 phones:320-767
